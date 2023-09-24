@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app" />
+        <module name="DiseaseTracker" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app" target="1.8" />
+      <module name="DiseaseTracker" target="1.8" />
+      <module name="facebook-oops" target="1.8" />
+      <module name="geektrust" target="1.8" />
+      <module name="gman-power" target="1.8" />
+      <module name="interview" target="1.8" />
+      <module name="Interview" target="1.8" />
+      <module name="inventoryManagement" target="1.8" />
+      <module name="leetcode" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="app" options="-parameters" />
+      <module name="facebook-oops" options="-parameters" />
+      <module name="inventoryManagement" options="-parameters" />
+    </option>
+  </component>
+</project>
